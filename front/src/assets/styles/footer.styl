@@ -11,13 +11,13 @@
     @apply mt-10
 
   .networks
-    @apply self-center text-right
+    @apply self-end text-right
 
     h4
-      @apply inline-block pr-5 text-xl font-bold
+      @apply inline-block pr-3 text-xl font-bold
 
     a
-      @apply px-5 text-2xl text-gray-400
+      @apply px-3 text-2xl text-gray-400
       transition all .2s ease
 
       &:hover
@@ -25,3 +25,12 @@
 
       &:last-child
         @apply pr-0
+
+    .code
+      @apply mt-5
+
+      a
+        @apply text-sm text-gray-600
+
+        &:hover
+          @apply text-gray-400
