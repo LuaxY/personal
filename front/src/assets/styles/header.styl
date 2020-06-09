@@ -1,0 +1,36 @@
+.header
+  @apply px-4
+
+  .container
+    @apply flex justify-between items-center py-6
+
+  @media(min-width: theme('screens.sm'))
+    @apply px-1
+
+  @media(min-width: theme('screens.md'))
+    @apply px-0 justify-start
+
+  .name
+    @apply text-2xl
+
+  .links
+    @apply flex
+
+    .link
+      @apply self-center mx-4 text-gray-400
+      transition all .2s ease
+
+      &:hover
+        @apply text-white
+
+      &:first-child
+        @apply ml-0
+
+      &:last-child
+        @apply mr-0
+
+      svg
+        @apply mr-1
+
+    .btn
+      @apply py-3 px-5 font-bold
