@@ -1,32 +1,42 @@
 #me
-  @apply pt-32 pb-20
+  @apply pt-16 pb-20
 
   .container
-    @apply px-20
+    @apply relative
 
-  .hello
-    @apply text-3xl
+  .overview
+    @apply mx-auto self-end
 
-  h1
-    @apply text-6xl leading-tight
+    .hello
+      @apply text-3xl
 
-    span
-      @apply font-medium text-yellow-500
+    h1
+      @apply text-6xl leading-tight
 
-  h2
-    @apply text-4xl
+      span
+        @apply font-medium text-orange-1
 
-  p
-    @apply mt-2 text-xl text-gray-500
+    h2
+      @apply text-4xl
 
-  .exps
-    @apply flex mt-20
+    p
+      @apply mt-2 text-xl text-gray-500
 
-    .exp
-      @apply flex mr-10
+    .exps
+      @apply flex mt-20
 
-      .number
-        @apply block text-white text-4xl
+      .exp
+        @apply flex mr-10
 
-      .text
-        @apply uppercase text-gray-600 text-sm self-center ml-3
+        .number
+          @apply block text-white text-4xl
+
+        .text
+          @apply uppercase text-gray-600 text-sm self-center ml-3
+
+  .logo
+    @apply mx-auto
+    /*top -80px
+
+    img
+      @apply block mx-auto*/
