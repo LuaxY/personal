@@ -5,7 +5,7 @@
         <div class="domains grid grid-cols-1 gap-6">
           <div class="domain">
             <h3>Blockchain</h3>
-            <p>Creation of smart contracts on Ethereum blockchain</p>
+            <p>Creation of smart contracts on Ethereum and others blockchain</p>
             <div class="icon pr-1">
               <i class="fab fa-ethereum"></i>
             </div>
@@ -27,7 +27,7 @@
         </div>
         <div class="aboutme">
           <h3>About Me</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p >I'm a software developer who are passionate of innovation in the computer science world. I went through different domains like networking, embedded system, cyber security, video games and anti-cheats. Today, I'm looking at the new technologies that will revolutionize our world, such as blockchains, decentralization, distributed work, cloud computing, machine learning etc. I like to learn and practice new things all the time, maybe we will create the world of tomorrow together?</p>
         </div>
       </div>
     </div>
