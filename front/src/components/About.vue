@@ -5,7 +5,7 @@
         <div class="domains grid grid-cols-1 gap-6">
           <div class="domain">
             <h3>Blockchain</h3>
-            <p>Creation of smart contracts on Ethereum and others blockchain</p>
+            <p>Creation of smart contracts on Ethereum and others blockchains</p>
             <div class="icon pr-1">
               <i class="fab fa-ethereum"></i>
             </div>
