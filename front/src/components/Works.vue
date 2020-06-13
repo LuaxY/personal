@@ -7,15 +7,15 @@
             <h3>Latest Works</h3>
             <p>An overview on what I have build</p>
           </div>
-          <div class="block"></div>
+          <div class="block nitro-encoder"></div>
           <div class="text">
             <h3>All Projects</h3>
             <p>If you want to know more, contact me</p>
           </div>
         </div>
         <div class="grid grid-cols-1 gap-32">
-          <div class="block"></div>
-          <div class="block"></div>
+          <div class="block ubisoft-monitoring"></div>
+          <div class="block dofus-anti-cheat"></div>
         </div>
       </div>
     </div>
