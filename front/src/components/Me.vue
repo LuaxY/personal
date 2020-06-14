@@ -6,7 +6,7 @@
           <div class="hello">Hello!</div>
           <h1>I'm <span>Yann Guineau</span></h1>
           <h2>Blockchain Developer</h2>
-          <p>I develop powerful services and blockchain projects.</p>
+          <p>I create powerful services and blockchain projects.</p>
           <div class="exps">
             <div class="exp">
               <div class="number">+8</div>

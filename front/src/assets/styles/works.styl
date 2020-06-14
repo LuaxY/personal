@@ -11,17 +11,46 @@
       @apply text-gray-600 text-sm
 
   .block
-    @apply bg-gray-1 rounded-lg shadow-lg self-center
+    @apply relative rounded-lg shadow-xl self-center cursor-pointer
     height 340px
-    background-position center center
-    background-size contain
-    background-repeat no-repeat
+    z-index 1
 
-    &.ubisoft-monitoring
+    h4, p
+      @apply absolute flex left-0 top-0 justify-center items-center w-full h-full
+      transition all .2s ease
+
+    h4
+      @apply text-3xl
+      text-shadow 0 0 15px #000
+
+    p
+      @apply opacity-0 p-10 text-justify
+
+    &:hover
+      h4
+        @apply opacity-0
+
+      p
+        @apply opacity-100
+
+      &:before
+        opacity .2
+
+    &:before
+      @apply absolute block left-0 right-0 top-0 bottom-0 rounded-lg
+      content: ""
+      opacity .5
+      z-index -2
+      background-position center center
+      background-size contain
+      background-repeat no-repeat
+      transition all .1s ease
+
+    &.ubisoft-monitoring:before
       background-image url("../images/works/ubisoft-monitoring.png")
 
-    &.nitro-encoder
+    &.nitro-encoder:before
       background-image url("../images/works/nitro-encoder.png")
 
-    &.dofus-anti-cheat
+    &.dofus-anti-cheat:before
       background-image url("../images/works/dofus-anti-cheat.png")
