@@ -8,17 +8,21 @@
     @apply mt-6 text-gray-500
 
   .email
-    @apply mt-10
+    @apply mt-10 text-gray-300
+    transition all .1s ease
+
+    &:hover
+      @apply text-white
+
+    svg
+      @apply mr-1
 
   .networks
     @apply self-end text-right
 
-    h4
-      @apply inline-block pr-3 text-xl font-bold
-
     a
-      @apply px-3 text-2xl text-gray-400
-      transition all .2s ease
+      @apply px-3 text-xl text-gray-400
+      transition all .1s ease
 
       &:hover
         @apply text-white
@@ -27,7 +31,7 @@
         @apply pr-0
 
     .code
-      @apply mt-5
+      @apply mt-2
 
       a
         @apply text-sm text-gray-600

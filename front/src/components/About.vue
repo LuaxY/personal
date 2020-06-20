@@ -27,7 +27,7 @@
         </div>
         <div class="aboutme">
           <h3>About Me</h3>
-          <p >I'm a software developer who are passionate of innovation in the computer science world. I went through different domains like networking, embedded system, cyber security, video games and anti-cheats. Today, I'm looking at the new technologies that will revolutionize our world, such as blockchains, decentralization, distributed work, cloud computing, machine learning etc. I like to learn and practice new things all the time, maybe we will create the world of tomorrow together?</p>
+          <p >I'm a software developer who is passionate about innovation in the computer science world. I went through different domains like networking, embedded systems, cyber security, video games and anti-cheats. Today, I'm looking at the new technologies that will revolutionize our world, such as blockchains, decentralization, distributed work, cloud computing, machine learning etc. I like to learn and practice new things all the time, maybe we will create the world of tomorrow together?</p>
         </div>
       </div>
     </div>

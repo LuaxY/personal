@@ -28,7 +28,6 @@
             </div>
           </div>
           <div class="col-span-2 networks flex-end">
-            <h4>Follow me:</h4>
             <div class="inline-block">
               <a href="https://twitter.com/Luax0" target="_blank" class="link"><i class="fab fa-twitter"></i></a>
               <a href="https://github.com/LuaxY" target="_blank" class="link"><i class="fab fa-github"></i></a>
