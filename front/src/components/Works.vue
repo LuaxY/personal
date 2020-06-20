@@ -9,7 +9,7 @@
           </div>
           <div class="block nitro-encoder">
             <h4>Nitro Video Encoder</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Nitro Encoder is a powerful transcoder of video into streaming format in a distributed manner. It splits movies into small chunks to allow parallel encoding in the cloud at a reduced price of preemptible GCP instances.</p>
           </div>
           <div class="text">
             <h3>All Projects</h3>
@@ -19,11 +19,11 @@
         <div class="grid grid-cols-1 gap-32">
           <div class="block ubisoft-monitoring">
             <h4>Ubisoft Monitoring Platform</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Implementation of a Monitoring-as-a-Service system, to monitor Ubisoft's entire network infrastructure and its hundreds of thousands of daily players. MonASS uses the power of the multi cloud to be highly available, fault tolerant and recoverable in case of disasters.</p>
           </div>
           <div class="block dofus-anti-cheat">
             <h4>Dofus Anti Cheat</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Realization of an anti cheating system for the popular game Dofus in France. It aims to fight against bots using several techniques such as behavior detection, machine learning, crypto whiteboxing, and security by obscurity (blackboxing). It also allows the detection of illegal gold sellers and so far no one has been able to bypass this system.</p>
           </div>
         </div>
       </div>
