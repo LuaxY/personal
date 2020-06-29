@@ -5,7 +5,7 @@
         <div class="overview">
           <div class="hello">Hello!</div>
           <h1>I'm <span>Yann Guineau</span></h1>
-          <h2>Blockchain Developer</h2>
+          <h2>Backend & Blockchain Developer</h2>
           <p>I create powerful services and blockchain projects.</p>
           <div class="exps">
             <div class="exp">
