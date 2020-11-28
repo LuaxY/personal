@@ -1,11 +1,24 @@
 # Personal Website
 
-### Build & Run
-
-```shell script
-docker build -t gcr.io/voidmx/personal .
-docker push gcr.io/voidmx/personal
-docker pull gcr.io/voidmx/personal
-docker stop personal && docker rm personal
-docker run --name personal -d --restart=always -p 80:80 gcr.io/voidmx/personal
+## Project setup
 ```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
