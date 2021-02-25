@@ -27,7 +27,8 @@
         </div>
         <div class="aboutme">
           <h3>About Me</h3>
-          <p>I am a software developer who is passionate about innovation in the computer science world. I went through different domains like networking, embedded systems, cyber security, video games, streaming platform, and monitoring systems. Today, I am looking at the new technologies that will revolutionize our world, such as blockchains, decentralization, distributed work, cloud computing, machine learning etc. I like to learn and practice new things all the time, maybe we will create the world of tomorrow together?</p>
+          <p>I am passionate about innovation in the Computer Science realm and I am continuously looking to find new technologies that will revolutionize the world we currently know, including Blockchains, Decentralization, Distributed Work, Cloud Computing, Machine Learning and more.</p>
+          <p>I have experience in different domains including Networking, Embedded Systems, Cyber Security, Video Games, Streaming Platforms, and Monitoring Systems. I am committed to discovering new practices and expand my knowledge of different technologies.</p>
         </div>
       </div>
     </div>
