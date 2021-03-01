@@ -18,7 +18,7 @@ jobs:
         run: |
           yarn install
           yarn build
-      - name: Upload to IPFS
+      - name: Pin to IPFS
         id: upload
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.3
         with:
