@@ -19,9 +19,9 @@ jobs:
           yarn install
           yarn build
       - name: Upload to IPFS
-        uses: aquiladev/ipfs-action@v0.1.5
+        uses: ipfs-shipyard/ipfs-github-action@v2
         with:
-          path: ./dist
-          service: infura
-          pinataKey: ${{ secrets.PINATA_KEY }}
-          pinataSecret: ${{ secrets.PINATA_SECRET }}
+          path_to_add: dist
+          cluster_host: /dnsaddr/cluster.ipfs.io
+      - run: echo /ipfs/${{ steps.ipfs.outputs.cid }}
+      - run: echo ${{ steps.ipfs.outputs.url }}
