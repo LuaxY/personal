@@ -1,0 +1,24 @@
+name: IPFS
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup node verison
+        uses: actions/setup-node@v1
+        with:
+          node-version: '15'
+      - name: Build website
+        run: |
+          yarn install
+          yarn build
+      - uses: aquiladev/ipfs-action@v1
+        with:
+          path: ./dist
+          service: pinata
+          pinataKey: ${{ secrets.PINATA_KEY }}
+          pinataSecret: ${{ secrets.PINATA_SECRET }}
