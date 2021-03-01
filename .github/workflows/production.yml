@@ -19,12 +19,22 @@ jobs:
         run: |
           yarn install
           yarn build
+      - name: Cache result
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.sha }}
+          path: dist
 
   gcp:
     name: Upload on GCP
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Get cache
+        uses: actions/cache@v2
+        with:
+          path: dist
+          key: ${{ github.sha }}
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@master
         with:
@@ -37,6 +47,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Get cache
+        uses: actions/cache@v2
+        with:
+          path: dist
+          key: ${{ github.sha }}
       - name: Pin to IPFS
         id: upload
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.3
