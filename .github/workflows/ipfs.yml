@@ -19,9 +19,10 @@ jobs:
           yarn install
           yarn build
       - name: Upload to IPFS
-        uses: ipfs-shipyard/ipfs-github-action@v2.0.0
+        uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.3
         with:
-          path_to_add: dist
-          cluster_host: /dnsaddr/cluster.ipfs.io
-      - run: echo /ipfs/${{ steps.ipfs.outputs.cid }}
-      - run: echo ${{ steps.ipfs.outputs.url }}
+          pin-name: 'Personal Website'
+          path: dist
+          pinata-api-key: ${{ secrets.PINATA_KEY }}
+          pinata-secret-api-key: ${{ secrets.PINATA_SECRET }}
+          verbose: true
