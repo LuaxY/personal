@@ -17,7 +17,7 @@ jobs:
           yarn install
           yarn build
       - name: Upload to IPFS
-      - uses: aquiladev/ipfs-action@v0.1.5
+        uses: aquiladev/ipfs-action@v0.1.5
         with:
           path: ./dist
           service: pinata
