@@ -10,6 +10,7 @@
           <a href="https://github.com/LuaxY" target="_blank" class="link"><i class="fab fa-github"></i> GitHub</a>
           <a href="https://keybase.io/luax" target="_blank" class="link"><i class="fab fa-keybase"></i> Keybase</a>
           <a href="https://www.linkedin.com/in/yann-guineau/" target="_blank" class="link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://calendly.com/yann-guineau" target="_blank" class="link"><i class="fas fa-calendar-alt"></i> Meeting</a>
           <a href="https://www.linkedin.com/in/yann-guineau/" target="_blank" class="btn btn-yellow">Hire me</a>
         </div>
       </div>
@@ -33,6 +34,7 @@
               <a href="https://github.com/LuaxY" target="_blank" class="link"><i class="fab fa-github"></i></a>
               <a href="https://keybase.io/luax" target="_blank" class="link"><i class="fab fa-keybase"></i></a>
               <a href="https://www.linkedin.com/in/yann-guineau/" target="_blank" class="link"><i class="fab fa-linkedin"></i></a>
+              <a href="https://calendly.com/yann-guineau" target="_blank" class="link"><i class="fas fa-calendar-alt"></i></a>
             </div>
             <div class="code"><a href="https://github.com/LuaxY/personal" target="_blank"><i class="far fa-code"></i> View Code Source</a></div>
           </div>
