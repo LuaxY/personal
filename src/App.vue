@@ -23,7 +23,7 @@
         <div class="grid grid-cols-3 gap-32">
           <div>
             <h3>Got a project?<br>Let's talk.</h3>
-            <p>If you are interested to colaborate with me, don't hesitate to send me an email.</p>
+            <p>If you are interested in colaborating with me, please don't hesitate to send me an email.</p>
             <div class="email">
               <a href="mailto:hello@voidmx.net?subject=I have an awesome idea!!"><i class="fas fa-envelope"></i> hello@voidmx.net</a>
             </div>
